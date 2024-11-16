@@ -16,6 +16,15 @@
       }
     },
     {
+      "name": "linux",
+      "generator": "Unix Makefiles",
+      "binaryDir": "build",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
       "name": "release",
       "generator": "Ninja",
       "binaryDir": "release-build",
