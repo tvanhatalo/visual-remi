@@ -33,6 +33,14 @@
       }
     },
     {
+      "name": "linux-release",
+      "generator": "Unix Makefiles",
+      "binaryDir": "release-build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
       "name": "vs",
       "generator": "Visual Studio 17 2022",
       "binaryDir": "vs-build"
@@ -47,6 +55,10 @@
     {
       "name": "default",
       "configurePreset": "default"
+    },
+    {
+      "name": "linux",
+      "configurePreset": "linux"
     }
   ],
   "testPresets": [
